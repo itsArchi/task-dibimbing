@@ -33,9 +33,7 @@
   .contact-info i {
     font-size: 18px;
     display: flex;
-    /* flex-direction: column; */
     margin: 10px 0;
-    /* border: 1px solid black; */
     gap: 10px;
   }
   

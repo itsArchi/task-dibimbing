@@ -15,12 +15,10 @@
   }
   
   .container-price h2 {
-    font-family: "Euclid Circular A", "Poppins";
     font-size: 28px;
     margin-bottom: 20px;
   }
   .container-price button {
-    font-family: "Euclid Circular A", "Poppins";
     font-size: 16px;
     padding: 10px;
     margin-top: 10px;
@@ -35,7 +33,6 @@
   }
   
   .pricing-tag {
-    font-family: "Euclid Circular A", "Poppins";
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: 700;
@@ -71,12 +68,10 @@
     box-sizing: border-box;
     text-align: center;
     padding: 10px;
-    font-family: "Euclid Circular A", "Poppins";
     margin-bottom: 20px;
   }
   
   .car-item button {
-    font-family: "Euclid Circular A", "Poppins";
     font-size: 16px;
     font-weight: 600;
     padding: 10px;
