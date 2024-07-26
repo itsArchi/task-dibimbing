@@ -1,0 +1,110 @@
+.third.parallax {
+    background-image: url("../assets/background/third.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.container-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .container-price h2 {
+    font-family: "Euclid Circular A", "Poppins";
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .container-price button {
+    font-family: "Euclid Circular A", "Poppins";
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #eeeeee;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container-price button:hover {
+    background-color: #f5f7f8;
+  }
+  
+  .pricing-tag {
+    font-family: "Euclid Circular A", "Poppins";
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .list-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .list-menu a {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+  }
+  
+  .car-item {
+    flex: 0 0 19%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    font-family: "Euclid Circular A", "Poppins";
+    margin-bottom: 20px;
+  }
+  
+  .car-item button {
+    font-family: "Euclid Circular A", "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #eeeeee;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .car-item button:hover {
+    background-color: #f5f7f8;
+  }
+  
+  .car-item h3 {
+    margin-top: 10px;
+  }
+  
+  .car-item p {
+    margin-top: 5px;
+  }
+  
+  .car-item img {
+    width: 50%;
+    height: 50%;
+  }
+  
+
+  .car-item .price {
+    font-weight: bold;
+  }
