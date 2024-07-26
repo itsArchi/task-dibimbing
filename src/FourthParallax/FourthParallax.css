@@ -1,0 +1,47 @@
+.fourth.parallax {
+    background-image: url("../assets/background/fourth.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-info {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .contact-info h4 {
+    font-family: "Euclid Circular A", "Poppins";
+    font-size: 28px;
+  }
+  
+  .contact-info button {
+    margin: 5px 0 20px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .contact-info i {
+    font-size: 18px;
+    display: flex;
+    /* flex-direction: column; */
+    margin: 10px 0;
+    /* border: 1px solid black; */
+    gap: 10px;
+  }
+  
+  .contact-info {
+    font-family: "Euclid Circular A", "Poppins";
+    font-size: 18px;
+  }
+  

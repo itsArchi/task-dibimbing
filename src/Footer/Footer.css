@@ -1,0 +1,23 @@
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sosmed {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .sosmed a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sosmed .ig, .sosmed .linkedin {
+    margin-left: 5px;
+  }
+  
