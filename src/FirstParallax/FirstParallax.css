@@ -71,3 +71,14 @@
   width: 100%;
   height: 100vh;
 }
+
+@media (max-width: 480px) {
+  .main-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-banner {
+    margin-left: 40px;
+  }
+}

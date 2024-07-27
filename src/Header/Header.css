@@ -47,3 +47,25 @@ nav li a:hover {
     padding-left: 100px;
     color: white;
 }
+
+@media (max-width: 430px) {
+    header {
+        display: flex;
+        padding: 5px;
+    }
+
+    .logo-container {
+        padding-left: 0;
+        margin-bottom: 5px;
+    }
+
+    nav ul {
+        gap: 5px;
+        padding-right: 0;
+    }
+
+    nav li, a {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+}

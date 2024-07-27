@@ -20,3 +20,9 @@ footer {
     margin-left: 5px;
   }
   
+  @media (max-width: 430px) {
+    footer {
+      height: 0 auto;
+      position: sticky;
+    }
+  }
