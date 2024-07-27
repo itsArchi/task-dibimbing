@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css'; // pastikan Anda mengimpor CSS Swiper
+import 'swiper/swiper-bundle.css';
 import "./SecondParallax.css";
 
 function goto(link) {
