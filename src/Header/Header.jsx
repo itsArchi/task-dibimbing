@@ -9,16 +9,16 @@ function Header() {
       <nav>
         <ul className="menu">
           <li>
-            <a href="">Home</a>
+            <a href="#firstParallax">Home</a>
           </li>
           <li>
-            <a href="">Tentang</a>
+            <a href="#secondParallax">Tentang</a>
           </li>
           <li>
-            <a href="">Harga</a>
+            <a href="#thirdParallax">Harga</a>
           </li>
           <li>
-            <a href="../Contact/Contact.jsx">Kontak</a>
+            <a href="#fourthParallax">Kontak</a>
           </li>
         </ul>
       </nav>

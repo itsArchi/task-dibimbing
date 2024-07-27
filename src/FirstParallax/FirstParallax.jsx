@@ -1,9 +1,11 @@
 import './FirstParallax.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import rentCarImage from '../assets/rentcar.png';
 
 function goto(link) {
     const urls = {
-      chat: "../FourthParallax/FourthParallax.jsx", // untuk ke page 4 (contact)
+      chat: "#fourthParallax",
     };
   
     window.location.href = urls[link];
@@ -24,9 +26,9 @@ const FirstParallax = () => {
             dengan membangun dan mengangkat pengalaman dalam menjual dan membeli mobil.
           </p>
           <p className="main-banner-text-bottom">Cari mobil sekarang!</p>
-          <div className="button-join">
+          <div className="button-call">
             <button onClick={() => goto('chat')} className="logo-button">
-              <i className="fa-solid fa-phone"></i>Hubungi Kami
+            <FontAwesomeIcon icon={faPhone} /> Hubungi Kami
             </button>
           </div>
         </div>

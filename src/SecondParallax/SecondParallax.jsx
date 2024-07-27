@@ -11,8 +11,8 @@ function goto(link) {
     mitsubishi: "https://mitsubishi-motors.co.id/",
     suzuki: "https://suzuki.co.id/",
     mazda: "https://mazda.co.id/",
-    find: "#thirdParallax", // untuk ke page 3 (pricing)
-    chat: "#fourthParallax", // untuk ke page 4 (contact),
+    find: "#thirdParallax",
+    chat: "#fourthParallax",
   };
 
   window.location.href = urls[link];

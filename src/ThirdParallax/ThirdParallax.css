@@ -16,10 +16,12 @@
   
   .container-price h2 {
     font-size: 28px;
-    margin-bottom: 20px;
+    margin: 40px 0 0 0;
   }
+
   .container-price button {
     font-size: 16px;
+    font-weight: 500;
     padding: 10px;
     margin-top: 10px;
     background-color: #eeeeee;

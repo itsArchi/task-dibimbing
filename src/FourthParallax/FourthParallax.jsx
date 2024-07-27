@@ -4,7 +4,7 @@ import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 function goto(link) {
   const urls = {
-    chat: "../FourthParallax/FourthParallax.jsx",
+    chat: "#fourthParallax",
   };
 
   window.location.href = urls[link];

@@ -1,25 +1,26 @@
-import './ThirdParallax.css';
-
-import stargazerImage from '../assets/car-list/stargazer.png';
-import avanzaImage from '../assets/car-list/avanza.png';
-import xl7Image from '../assets/car-list/xl7.png';
-import cx5Image from '../assets/car-list/cx5.png';
-import zenixImage from '../assets/car-list/zenix.png';
-import xeniaImage from '../assets/car-list/xenia.png';
-import ertigaImage from '../assets/car-list/ertiga.png';
-import calyaImage from '../assets/car-list/calya.png';
-import cretaImage from '../assets/car-list/creta.png';
-import sigraImage from '../assets/car-list/sigra.png';
+import "./ThirdParallax.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import stargazerImage from "../assets/car-list/stargazer.png";
+import avanzaImage from "../assets/car-list/avanza.png";
+import xl7Image from "../assets/car-list/xl7.png";
+import cx5Image from "../assets/car-list/cx5.png";
+import zenixImage from "../assets/car-list/zenix.png";
+import xeniaImage from "../assets/car-list/xenia.png";
+import ertigaImage from "../assets/car-list/ertiga.png";
+import calyaImage from "../assets/car-list/calya.png";
+import cretaImage from "../assets/car-list/creta.png";
+import sigraImage from "../assets/car-list/sigra.png";
 
 function goto(link) {
-    const urls = {
-      find: "#thirdParallax",
-      chat: "#fourthParallax",
-    };
-  
-    window.location.href = urls[link];
-  }
-  
+  const urls = {
+    find: "#thirdParallax",
+    chat: "#fourthParallax",
+  };
+
+  window.location.href = urls[link];
+}
+
 const ThirdParallax = () => {
   return (
     <div id="thirdParallax" className="third parallax">
@@ -98,7 +99,9 @@ const ThirdParallax = () => {
           </div>
         </div>
         <h2>dan Masih Banyak yang Lainnya</h2>
-        <button onClick={() => goto("chat")}>Pesan Sekarang</button>
+        <button onClick={() => goto("chat")}>
+          <FontAwesomeIcon icon={faPhone} /> Pesan Sekarang
+        </button>
       </div>
     </div>
   );

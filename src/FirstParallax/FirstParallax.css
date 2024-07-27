@@ -34,15 +34,18 @@
 
 .main-banner-text {
   font-size: 18px;
+  font-weight: 500;
   padding: 25px 0px 25px 0px;
 }
 
 .main-banner-text-bottom {
   font-size: 18px;
+  font-weight: 500;
 }
 
 .logo-button {
   font-size: 18px;
+  font-weight: 500;
   display: inline-flex;
   padding: 10px 20px;
   margin-top: 20px;
@@ -53,11 +56,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-decoration: none;
-}
-
-.logo-button img {
-  width: 30px;
-  margin-right: 5px;
+  gap: 10px;
 }
 
 .logo-button:hover {
@@ -65,10 +64,6 @@
   color: black;
 }
 
-.logo-button i {
-  margin: 5px 10px 0 0;
-  /* border: 1px solid black; */
-}
 .parallax {
   background-position: center;
   background-size: cover;
